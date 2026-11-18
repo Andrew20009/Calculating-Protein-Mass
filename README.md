@@ -9,7 +9,7 @@ It is a solution to the **"Calculating Protein Mass"** Rosalind problem **(ID: P
 ## FEATURES
 - Reads a protein string from a file (`rosalind_prtm.txt`), joining it into one string even if it is split across several lines
 - Looks up each amino acid in a dictionary built from the monoisotopic mass table
-- Adds every amino acid's mass into a running total
+- Adds every amino acid's mass into a total mass
 - Raises a clear error if the string contains a letter that is not one of the 20 amino acids
 - Prints the total mass rounded to the thousandths place (3 decimal places)
 - Clean, well-commented code with proper functions and type hints
